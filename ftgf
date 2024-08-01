@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0033a0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.materiais {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.materia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.materia-imagem {
+    border-radius: 8px;
+    margin-right: 20px;
+
+    object-fit: cover;
+}
+
+.materia-info h2 {
+    color: #0033a0;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #0033a0;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
