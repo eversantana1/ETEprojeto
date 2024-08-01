@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETE Jose Joaquim</title>
+    <link rel="stylesheet" href="fazendo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Materiais Escolares</h1>
+        </div>
+    </header>
+    <main>
+        <section class="materiais">
+            <div class="container">
+                <div class="materia">
+                    <img src="foto/matematica.png" alt="Matemática" class="materia-imagem" height="55" width="55">
+                    <div class="materia-info">
+                        <h2>Matemática</h2>
+                        <p>Conteúdo: Álgebra, Geometria, Cálculo</p>
+                    </div>
+                </div>
+                <div class="materia">
+                    <img src="portugues.jpg" alt="Português" class="materia-imagem">
+                    <div class="materia-info">
+                        <h2>Português</h2>
+                        <p>Conteúdo: Literatura, Gramática, Redação</p>
+                    </div>
+                </div>
+                <div class="materia">
+                    <img src="historia.jpg" alt="História" class="materia-imagem">
+                    <div class="materia-info">
+                        <h2>História</h2>
+                        <p>Conteúdo: História do Brasil, História Geral</p>
+                    </div>
+                </div>
+                <div class="materia">
+                    <img src="ciencias.jpg" alt="Ciências" class="materia-imagem">
+                    <div class="materia-info">
+                        <h2>Ciências</h2>
+                        <p>Conteúdo: Biologia, Física, Química</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Escola Exemplo</p>
+        </div>
+    </footer>
+</body>
+</html>
