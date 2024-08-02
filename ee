@@ -16,32 +16,94 @@
         <section class="materiais">
             <div class="container">
                 <div class="materia">
-                    <img src="foto/matematica.png" alt="Matemática" class="materia-imagem" height="55" width="55">
+                    <img src="fotos/matematica.png" alt="Matemática" class="materia-imagem" height="55" width="55">
                     <div class="materia-info">
                         <h2>Matemática</h2>
                         <p>Conteúdo: Álgebra, Geometria, Cálculo</p>
                     </div>
                 </div>
                 <div class="materia">
-                    <img src="portugues.jpg" alt="Português" class="materia-imagem">
+                    <img src="fotos/portugues.png" alt="Português" class="materia-imagem" height="55">
                     <div class="materia-info">
                         <h2>Português</h2>
                         <p>Conteúdo: Literatura, Gramática, Redação</p>
                     </div>
                 </div>
                 <div class="materia">
-                    <img src="historia.jpg" alt="História" class="materia-imagem">
+                    <img src="fotos/history.png" alt="História" class="materia-imagem" height="55">
                     <div class="materia-info">
                         <h2>História</h2>
                         <p>Conteúdo: História do Brasil, História Geral</p>
                     </div>
                 </div>
                 <div class="materia">
-                    <img src="ciencias.jpg" alt="Ciências" class="materia-imagem">
-                    <div class="materia-info">
-                        <h2>Ciências</h2>
+                    <img src="fotos/ciencia.png" alt="Ciências" class="materia-imagem" height="55">
+                <div class="materia-info">
+                        <h2>Biologia</h2>
                         <p>Conteúdo: Biologia, Física, Química</p>
-                    </div>
+                </div>
+                        
+                <div class="materia">
+                        <img src="fotos/mapa.png" alt="Ciências" class="materia-imagem" height="55">
+                    <div class="materia-info">
+                            <h2>Geografia</h2>
+                            <p>Conteúdo: Biologia, Física, Química</p>
+                        </div> 
+                        <div class="materia">
+                            <img src="fotos/teste.png" alt="Ciências" class="materia-imagem" height="55">
+                            <div class="materia-info">
+                                <h2>Quimica</h2>
+                                <p>Conteúdo: Biologia, Física, Química</p>
+                        </div>
+                        <div class="materia">
+                                <img src="" alt="Ciências" class="materia-imagem">
+                            <div class="materia-info">
+                                 <h2>Ingles</h2>
+                                <p>Conteúdo: Biologia, Física, Química</p>
+                        </div>
+                        <div class="materia">
+                            <img src="fotos/fisica.png" alt="Ciências" class="materia-imagem" height="55">
+                            <div class="materia-info">
+                                <h2>Fisica</h2>
+                                <p>Conteúdo: Biologia, Física, Química</p>
+                            </div> 
+                            <div class="materia">
+                                <img src="fotos/rede.png" alt="Ciências" class="materia-imagem" height="55">
+                                <div class="materia-info">
+                                    <h2>Sociologia</h2>
+                                    <p>Conteúdo: Biologia, Física, Química</p>
+                            </div>
+                            <div class="materia">
+                                <img src="fotos/filosofo.png" alt="Ciências" class="materia-imagem" height="55">
+                                <div class="materia-info">
+                                    <h2>Filosofia</h2>
+                                    <p>Conteúdo: Biologia, Física, Química</p>
+                            </div>
+                            <div class="materia">
+                                <img src="fotos/fisico.png" alt="Ciências" class="materia-imagem" height="55">
+                                <div class="materia-info">
+                                    <h2>Educaçao Fisica</h2>
+                                    <p>Conteúdo: Biologia, Física, Química</p>
+                                </div> 
+                                
+                                <div class="materia">
+                                    <img src="fotos/artes.png" alt="Ciências" class="materia-imagem" height="55">
+                                    <div class="materia-info">
+                                        <h2>Artes</h2>
+                                        <p>Conteúdo: Biologia, Física, Química</p>
+                                    </div>
+                                    <div class="materia">
+                                        <img src="fotos/estilo-de-vida.png" alt="Ciências" class="materia-imagem" height="55">
+                                        <div class="materia-info">
+                                            <h2>Projeto de vida</h2>
+                                            <p>Conteúdo: Biologia, Física, Química</p>
+                                        </div>
+                                        <div class="materia">
+                                            <img src="fotos/aprendendo.png" alt="Ciências" class="materia-imagem" height="55">
+                                            <div class="materia-info">
+                                                <h2>Laboratorio de Aprendizagem</h2>
+                                                <p>Conteúdo: Biologia, Física, Química</p>
+                                            </div>
                 </div>
             </div>
         </section>
