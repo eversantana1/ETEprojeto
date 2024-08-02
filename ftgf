@@ -16,6 +16,7 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    
 }
 
 header h1 {
@@ -35,7 +36,7 @@ main {
 }
 
 .materia {
-    display: flex;
+    display: block;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -43,6 +44,7 @@ main {
 .materia-imagem {
     border-radius: 8px;
     margin-right: 20px;
+    height: 55;
 
     object-fit: cover;
 }
