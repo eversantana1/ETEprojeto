@@ -1,117 +1,206 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETE Jose Joaquim</title>
-    <link rel="stylesheet" href="fazendo.css">
+    <title>Minha Escola</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="curso.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <style>
+        .curso-carousel {
+            width: 90%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        .curso-item {
+            text-align: center;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .curso-item img {
+            max-width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+
+        .curso-item h4 {
+            margin: 0.5rem 0;
+            font-size: 1.25rem;
+            color: var(--cor-primaria);
+        }
+
+        .curso-item p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .curso-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .slick-slide {
+            margin: 0 0.5rem;
+        }
+
+        .slick-prev,
+        .slick-next {
+            width: 40px;
+            height: 40px;
+            background-color: var(--cor-primaria);
+            color: var(--cor-texto);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+
+        .slick-prev {
+            left: 10px;
+        }
+
+        .slick-next {
+            right: 10px;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            font-size: 20px; 
+            color: #fff;
+        }
+
+        .slick-dots {
+            bottom: -30px;
+        }
+
+        .slick-dots li button:before {
+            font-size: 12px;
+            color: var(--cor-primaria);
+        }
+
+        .slick-dots .slick-active button:before {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <section id="home" class="hero">
         <div class="container">
-            <h1>Materiais Escolares</h1>
+            <h1>Bem-vindo à Nossa Escola</h1>
+            <p>Formando o futuro com excelência</p>
         </div>
-    </header>
-    <main>
-        <section class="materiais">
-            <div class="container">
-                <div class="materia">
-                    <img src="fotos/matematica.png" alt="Matemática" class="materia-imagem" height="55" width="55">
-                    <div class="materia-info">
-                        <h2>Matemática</h2>
-                        <p>Conteúdo: Álgebra, Geometria, Cálculo</p>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Informações sobre a escola, missão, visão e valores.</p>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container">
+            <header>
+                <h3>CURSOS DISPONÍVEIS</h3>
+                <div class="curso-carousel">
+                    <div class="curso-item">
+                        <img src="images/curso1.jpg" alt="Curso 1">
+                        <h4>Análise e Desenvolvimento</h4>
+                        <p>Descrição breve do curso 1.</p>
+                    </div>
+                    <div class="curso-item">
+                        <img src="images/curso2.jpg" alt="Curso 2">
+                        <h4>Curso 2</h4>
+                        <p>Descrição breve do curso 2.</p>
+                    </div>
+                    <div class="curso-item">
+                        <img src="images/curso3.jpg" alt="Curso 3">
+                        <h4>Curso 3</h4>
+                        <p>Descrição breve do curso 3.</p>
+                    </div>
+                    <div class="curso-item">
+                        <img src="images/curso4.jpg" alt="Curso 4">
+                        <h4>Curso 4</h4>
+                        <p>Descrição breve do curso 4.</p>
+                    </div>
+                    <div class="curso-item">
+                        <img src="images/curso5.jpg" alt="Curso 5">
+                        <h4>Curso 5</h4>
+                        <p>Descrição breve do curso 5.</p>
                     </div>
                 </div>
-                <div class="materia">
-                    <img src="fotos/portugues.png" alt="Português" class="materia-imagem" height="55">
-                    <div class="materia-info">
-                        <h2>Português</h2>
-                        <p>Conteúdo: Literatura, Gramática, Redação</p>
-                    </div>
-                </div>
-                <div class="materia">
-                    <img src="fotos/history.png" alt="História" class="materia-imagem" height="55">
-                    <div class="materia-info">
-                        <h2>História</h2>
-                        <p>Conteúdo: História do Brasil, História Geral</p>
-                    </div>
-                </div>
-                <div class="materia">
-                    <img src="fotos/ciencia.png" alt="Ciências" class="materia-imagem" height="55">
-                <div class="materia-info">
-                        <h2>Biologia</h2>
-                        <p>Conteúdo: Biologia, Física, Química</p>
-                </div>
-                        
-                <div class="materia">
-                        <img src="fotos/mapa.png" alt="Ciências" class="materia-imagem" height="55">
-                    <div class="materia-info">
-                            <h2>Geografia</h2>
-                            <p>Conteúdo: Biologia, Física, Química</p>
-                        </div> 
-                        <div class="materia">
-                            <img src="fotos/teste.png" alt="Ciências" class="materia-imagem" height="55">
-                            <div class="materia-info">
-                                <h2>Quimica</h2>
-                                <p>Conteúdo: Biologia, Física, Química</p>
-                        </div>
-                        <div class="materia">
-                                <img src="" alt="Ciências" class="materia-imagem">
-                            <div class="materia-info">
-                                 <h2>Ingles</h2>
-                                <p>Conteúdo: Biologia, Física, Química</p>
-                        </div>
-                        <div class="materia">
-                            <img src="fotos/fisica.png" alt="Ciências" class="materia-imagem" height="55">
-                            <div class="materia-info">
-                                <h2>Fisica</h2>
-                                <p>Conteúdo: Biologia, Física, Química</p>
-                            </div> 
-                            <div class="materia">
-                                <img src="fotos/rede.png" alt="Ciências" class="materia-imagem" height="55">
-                                <div class="materia-info">
-                                    <h2>Sociologia</h2>
-                                    <p>Conteúdo: Biologia, Física, Química</p>
-                            </div>
-                            <div class="materia">
-                                <img src="fotos/filosofo.png" alt="Ciências" class="materia-imagem" height="55">
-                                <div class="materia-info">
-                                    <h2>Filosofia</h2>
-                                    <p>Conteúdo: Biologia, Física, Química</p>
-                            </div>
-                            <div class="materia">
-                                <img src="fotos/fisico.png" alt="Ciências" class="materia-imagem" height="55">
-                                <div class="materia-info">
-                                    <h2>Educaçao Fisica</h2>
-                                    <p>Conteúdo: Biologia, Física, Química</p>
-                                </div> 
-                                
-                                <div class="materia">
-                                    <img src="fotos/artes.png" alt="Ciências" class="materia-imagem" height="55">
-                                    <div class="materia-info">
-                                        <h2>Artes</h2>
-                                        <p>Conteúdo: Biologia, Física, Química</p>
-                                    </div>
-                                    <div class="materia">
-                                        <img src="fotos/estilo-de-vida.png" alt="Ciências" class="materia-imagem" height="55">
-                                        <div class="materia-info">
-                                            <h2>Projeto de vida</h2>
-                                            <p>Conteúdo: Biologia, Física, Química</p>
-                                        </div>
-                                        <div class="materia">
-                                            <img src="fotos/aprendendo.png" alt="Ciências" class="materia-imagem" height="55">
-                                            <div class="materia-info">
-                                                <h2>Laboratorio de Aprendizagem</h2>
-                                                <p>Conteúdo: Biologia, Física, Química</p>
-                                            </div>
-                </div>
-            </div>
-        </section>
-    </main>
+            </header>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <h2>Notícias</h2>
+            <p>Últimas atualizações e eventos da escola.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
-            <p>&copy; 2024 Escola Exemplo</p>
+            <p>&copy; 2024 Minha Escola. Todos os direitos reservados.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.curso-carousel').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                pauseOnHover: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: true,
+                            dots: true
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
 </body>
 </html>
